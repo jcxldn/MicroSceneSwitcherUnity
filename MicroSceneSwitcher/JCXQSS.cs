@@ -1,0 +1,1 @@
+﻿using UnityEngine;using UnityEngine.SceneManagement;public class JCXQSS:MonoBehaviour{int C(){return SceneManager.GetActiveScene().buildIndex;}void O(int s){if((uint)s<=SceneManager.sceneCountInBuildSettings-1)SceneManager.LoadScene(s,LoadSceneMode.Single);}public void N(){O(C()+1);}public void P(){O(C()-1);}}
